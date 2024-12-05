@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: blueviolet;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.mainHeading{
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#studentForm {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+input {
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    width: 230px;
+}
+input::placeholder{
+    font-size: 16px;
+    padding-left: 10px;
+}
+h2{
+    letter-spacing: 2px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+td{
+    font-weight: 400;
+    font-size: 16px;
+}
+th{
+    color:#d4ddfb;
+    font-size: 18px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    box-shadow: 0.3px 0.5px 3px #fff;
+}
+button:hover{
+    box-shadow: 1px 0.5px 30px #fff;
+}
+.btnChange {
+    height: 28px;
+    padding: 5px 15px;
+}
+.btnChange:hover{
+    box-shadow: 1px 0.5px 30px blueviolet;
+}
